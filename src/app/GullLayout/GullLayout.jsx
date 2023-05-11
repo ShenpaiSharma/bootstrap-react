@@ -18,7 +18,7 @@ const GullLayout = ({ children }) => {
     <Suspense>
       <Fragment>
         <Layout>{children}</Layout>
-        {settings.customizer.show && <Customizer />}
+        {/* {settings.customizer.show && <Customizer />} */}
       </Fragment>
     </Suspense>
   );
