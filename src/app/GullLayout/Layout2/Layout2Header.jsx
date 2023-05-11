@@ -134,7 +134,7 @@ const Layout2Header = () => {
       </div>
 
       <div className="d-none d-lg-flex align-items-center">
-        <Dropdown className="mr-3">
+        {/* <Dropdown className="mr-3">
           <Dropdown.Toggle variant="link" id="dropdown-basic">
             Mega Menu
           </Dropdown.Toggle>
@@ -144,7 +144,7 @@ const Layout2Header = () => {
               <MegaMenu></MegaMenu>
             </Dropdown.Menu>
           </div>
-        </Dropdown>
+        </Dropdown> */}
 
         <div className="search-bar">
           <input
@@ -158,7 +158,7 @@ const Layout2Header = () => {
 
       <div style={{ margin: "auto" }}></div>
 
-      <div className="header-part-right">
+      {/* <div className="header-part-right">
         <i
           className="i-Full-Screen header-icon d-none d-sm-inline-block"
           data-fullscreen
@@ -252,7 +252,7 @@ const Layout2Header = () => {
             </DropdownMenu>
           </Dropdown>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
