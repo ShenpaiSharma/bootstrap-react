@@ -168,7 +168,7 @@ const Dashboard1 = () => {
           { name: "Version 1" },
         ]}
       ></Breadcrumb>
-      {/* <div className="row">
+      <div className="row">
         {cardList1.map((card, index) => (
           <div key={index} className="col-lg-3 col-md-6 col-sm-6">
             <div className="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
@@ -186,9 +186,9 @@ const Dashboard1 = () => {
             </div>
           </div>
         ))}
-      </div> */}
+      </div>
 
-      {/* <div className="row">
+      <div className="row">
         <div className="col-lg-8 col-md-12">
           <SimpleCard title="This Year Sales" className="mb-4">
             <ComparisonChart height="260px"></ComparisonChart>
@@ -199,8 +199,8 @@ const Dashboard1 = () => {
             <PieChart height="260px"></PieChart>
           </SimpleCard>
         </div>
-      </div> */}
-{/* 
+      </div>
+
       <div className="row">
         <div className="col-lg-6 col-md-12">
           <div className="row">
@@ -369,7 +369,7 @@ const Dashboard1 = () => {
             <LineChart3 height="360px"></LineChart3>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
